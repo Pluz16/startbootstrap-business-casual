@@ -41,12 +41,12 @@
                 <div class="product-item">
                     <div class="product-item-title d-flex">
                         <div class="bg-faded p-5 d-flex ms-auto rounded">
-                            <h2 class="section-heading mb-0">
+                            <h2 class="section-heading mb-0 ">
                                 <span class="section-heading-upper">Eleganza e Resistenza per i Tuoi Pavimenti</span>
                                 <span class="section-heading-lower">Gress Porcellanato</span>
                             </h2>
                         </div>
-                    </div>
+                    </div>                    
                     <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="assets/img/graniglia.jpg" alt="..." />
                     <div class="product-item-description d-flex me-auto">
                         <div class="bg-faded p-5 rounded"><p class="mb-0">Scegli il <strong>gress porcellanato</strong> per trasformare i tuoi spazi in ambienti raffinati e duraturi. Scopri una vasta gamma di colori, texture e design, perfetti per ogni stile di interior design. La nostra esperienza nella selezione dei materiali più pregiati e la maestria nella posa garantiscono risultati straordinari. Investi nella bellezza e nella longevità con il <strong>gress porcellanato</strong>: la scelta ideale per pavimenti che si distinguono per classe ed eleganza.</p></div>
@@ -181,15 +181,24 @@
             </div>
         </section>
         <footer class="footer text-faded text-center py-5">
-            <nav class="ml-0 p-5">
-                <ul>
-                    <li><a href="tel:0125658407">Telefono 0125658407</a></li>
-                    <li><a href="tel:3495345274">Cellulare 3495345274</a></li>
-                    <li>P.IVA 03938490012</li>
-                </ul>
-            </nav>
-            <div class="container"><p class="m-0 small">Copyright &copy; Mocco Snc 2023 di Bonetti Paola Emma Letizia & C.</p></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-left">
+                        <nav>
+                            <ul class="list-unstyled">
+                                <li><a href="tel:0125658407">Telefono 0125658407</a></li>
+                                <li><a href="tel:3495345274">Cellulare 3495345274</a></li>
+                                <li>P.IVA 03938490012</li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="m-0 small">Copyright &copy; Mocco Snc 2023 di Bonetti Paola Emma Letizia & C.</p>
+                    </div>
+                </div>
+            </div>
         </footer>
+        
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
@@ -202,4 +211,15 @@
     img{
         max-height: 550px;
     }
+    @media screen and (max-width: 768px) {
+        .section-heading-upper{
+            font-size: 12px !important; 
+        }
+
+        .section-heading-lower{
+            font-size: 20px !important;
+        }
+
+    }
+    
 </style>
