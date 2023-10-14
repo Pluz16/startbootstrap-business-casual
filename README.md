@@ -1,6 +1,6 @@
 # Mocco Pavimenti
 
-[<img src="dist/assets/Screenshot-sito.jpg" alt="Alt text">]
+<img src="./dist/assets/img/Screenshot-web.png" alt="Landing Page">
 
 ## Introduzione
 
@@ -8,7 +8,7 @@ Questo sito è stato realizzato da Francesco Punta a.k.a. Pluz16, dopo i primi s
 
 ## Funzionalità
 
-* [Entrando sul dominio mocco.it si aprirà la pagina index.html che lavora come home e landing page. Possiamo navigare grazie alla navbar posta in alto sia in modalità desktop (fissa) che modalità mobile (menu a tendina), importante l'utilizzo del sito cookieyes che permette di gestire il sito secondo le norme di legge. Nella pagina prodotti troviamo le principali categorie di articoli trattati dall'azienda. Non è stato facile reperire le immagini dei lavori fatti soprattutto per la pagine funeral.html dove bisognava tutelare la privacy dei defunti coprendo nomi e foto. Interessante la pagina about.html che descrive meglio la realtà di un'impresa ottantenne. Per finire store.html fornisce informazioni sullo showroom. ]
+* Entrando sul dominio mocco.it si aprirà la pagina index.html che lavora come home e landing page. Possiamo navigare grazie alla navbar posta in alto sia in modalità desktop (fissa) che modalità mobile (menu a tendina), importante l'utilizzo del sito cookieyes che permette di gestire il sito secondo le norme di legge. Nella pagina prodotti troviamo le principali categorie di articoli trattati dall'azienda. Non è stato facile reperire le immagini dei lavori fatti soprattutto per la pagine funeral.html dove bisognava tutelare la privacy dei defunti coprendo nomi e foto. Interessante la pagina about.html che descrive meglio la realtà di un'impresa ottantenne. Per finire store.html fornisce informazioni sullo showroom. 
 
 ## Installazione
 
