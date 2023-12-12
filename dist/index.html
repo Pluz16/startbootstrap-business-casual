@@ -49,9 +49,12 @@
             </div>
         </nav>
         <section class="page-section clearfix mb-5" id="services">
-            <div>
-                <h4>BUONE FESTE!</h4>
-                <h4>Chiusi dal 27/12/2023 al 07/01/2024</h4>
+            <div class="holiday-alert" role="alert">
+                <div class="container text-center">
+                    <h4 class="alert-heading">Chiusura per le Festività Natalizie</h4>
+                    <p>Saremo chiusi dal 23 Dicembre al 2 Gennaio. Auguriamo a tutti Buone Feste!</p>
+                </div>
+            </div>
             <div class="container">
                 <div class="intro">
                     <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="assets/img/sede.jpg" alt="Negozio Mocco Pavimenti vetrina a Settimo Vittone in Piemonte Torino. Vendita ceramiche, marmi, rivestimenti" />
@@ -136,6 +139,18 @@
 </html>
 
 <style>
+
+.holiday-alert {
+    background-size: cover;
+    color: white; /* Cambia il colore del testo se necessario */
+    padding: 20px 0; /* Aggiusta il padding secondo necessità */
+}
+
+.holiday-alert .container {
+    background-color: rgba(240, 44, 44, 0.5); /* Sfondo semi-trasparente per migliorare la leggibilità */
+    padding: 20px;
+    border-radius: 5px; /* Opzionale, per bordi arrotondati */
+}
 
 @media screen and (max-width: 768px) {
 
